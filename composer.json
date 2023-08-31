@@ -1,0 +1,21 @@
+{
+  "name": "monkeyslegion/monkeyslegiondb",
+  "description": "Database connection manager for the Monkeyslegion PHP framework.",
+  "type": "library",
+  "license": "MIT",
+    "authors": [
+      {
+        "name": "Jorge Peraza",
+        "email": "jorge@monkeys.cloud"
+      }
+    ],
+  "require": {
+    "php": "^8.2",
+    "monolog/monolog": "^3.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Monkeyslegion\\MonkeyslegionDB\\": "src/"
+    }
+  }
+}
