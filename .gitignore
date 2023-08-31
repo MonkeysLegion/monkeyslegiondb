@@ -1,0 +1,43 @@
+# Composer dependencies
+/vendor/
+
+# PHPStorm project files
+.idea/
+
+# macOS system files
+.DS_Store
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# Test coverage
+coverage/
+phpunit.xml
+
+# Build artifacts
+/build/
+/dist/
+
+# Environment variables
+.env
+
+# Other generated files
+*.cache
+*.bak
+*.zip
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tgz
+*.rar
+*.gz
+*.bz2
+*.7z
+*.exe
